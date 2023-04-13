@@ -1,12 +1,16 @@
 {
+  "name": "selfpage",
+  "version": "0.1.0",
+  "private": true,
   "scripts": {
-    "start": "nodemon app.js"
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
   },
   "dependencies": {
-    "dotenv": "^16.0.3",
-    "express": "^4.18.2",
-    "gitignore": "^0.7.0",
-    "nodejs": "^0.0.0",
-    "nodemon": "^2.0.22"
+    "next": "13.3.0",
+    "react": "18.2.0",
+    "react-dom": "18.2.0"
   }
 }
